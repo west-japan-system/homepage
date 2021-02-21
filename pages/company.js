@@ -136,7 +136,7 @@ export default function Company() {
           </dl>
           <dl className={classes.main__dl}>
             <dt className={classes.main__dt_company}>資本金</dt>
-            <dd className={classes.main__dd}>5,000,000万円</dd>
+            <dd className={classes.main__dd}>5,000,000円</dd>
           </dl>
           <dl className={classes.main__dl}>
             <dt className={classes.main__dt_company}>事業内容</dt>
