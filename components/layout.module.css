@@ -265,12 +265,12 @@
 
   .main__dt_company,
   .main__dt_contact {
-    width: 20rem;
+    width: 30rem;
     font-size: 1.5rem;
   }
 
   .main__dd {
-    width: 30rem;
+    width: 60rem;
     font-size: 1.5rem;
   }
 

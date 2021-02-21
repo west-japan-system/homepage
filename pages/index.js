@@ -16,7 +16,7 @@ export default function Home() {
         <meta http-equiv="content-language" content="ja" />
         <meta
           name="description"
-          content="株式会社 West Japan Systemのウェブサイトです。"
+          content="株式会社 West Japan Systemのウェブサイトです。West Japan Systemは日々お客様のことを考え、想像し、お客様のニーズにお答えします。対応はどこよりも早く、丁寧で綺麗に。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
@@ -34,12 +34,12 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="株式会社 West Japan Systemのウェブサイトです。"
+          content="株式会社 West Japan Systemのウェブサイトです。West Japan Systemは日々お客様のことを考え、想像し、お客様のニーズにお答えします。対応はどこよりも早く、丁寧で綺麗に。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
-        <meta property="og:url" content="https://wjs.net" />
+        <meta property="og:url" content="https://west-japan-system.com" />
         <meta
           property="og:image"
-          content="https://wjs.net/images/company-logo.jpg"
+          content="https://west-japan-system.com/images/company-logo.jpg"
         />
         <meta property="og:site_name" content="株式会社West Japan System" />
         <meta property="og:locale" content="ja_JP" />
@@ -48,7 +48,7 @@ export default function Home() {
           rel="apple-touch-icon-precomposed"
           href="/images/apple-touch-icon.png"
         />
-        <link rel="canonical" href="https://wjs.net" />
+        <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
         <title>株式会社West Japan System</title>
       </Head>
@@ -119,9 +119,13 @@ export default function Home() {
           <h1 className={classes.main__title}>株式会社 West Japan System</h1>
         </section>
         <article className={classes.main__article_about}>
-          <h2 className={classes.main__title_secondary}>ビジョンとか</h2>
+          <h2 className={classes.main__title_secondary}>
+            West Japan Systemについて
+          </h2>
           <p className={classes.main__paragraph}>
-            テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。テスト文章。
+            私たちはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。
+            <br />
+            日々お客様のことを考え、想像し、お客様のニーズにお答えします。対応はどこよりも早く、丁寧で綺麗に。
           </p>
         </article>
       </main>

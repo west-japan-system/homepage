@@ -36,10 +36,13 @@ export default function Company() {
           property="og:description"
           content="株式会社 West Japan Systemの「会社概要」です。"
         />
-        <meta property="og:url" content="https://wjs.net/company" />
+        <meta
+          property="og:url"
+          content="https://west-japan-system.com/company"
+        />
         <meta
           property="og:image"
-          content="https://wjs.net/images/company-logo.jpg"
+          content="https://west-japan-system.com/images/company-logo.jpg"
         />
         <meta property="og:site_name" content="株式会社West Japan System" />
         <meta property="og:locale" content="ja_JP" />
@@ -48,7 +51,7 @@ export default function Company() {
           rel="apple-touch-icon-precomposed"
           href="/images/apple-touch-icon.png"
         />
-        <link rel="canonical" href="https://wjs.net" />
+        <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
         <title>会社概要 | 株式会社 West Japan System</title>
       </Head>
@@ -124,25 +127,39 @@ export default function Company() {
             <dd className={classes.main__dd}>株式会社 West Japan System</dd>
           </dl>
           <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>事業内容</dt>
-            <dd className={classes.main__dd}>
-              テスト。テスト。テスト。テスト。
-            </dd>
+            <dt className={classes.main__dt_company}>設立</dt>
+            <dd className={classes.main__dd}>2003年1月</dd>
           </dl>
           <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>設立</dt>
+            <dt className={classes.main__dt_company}>創業</dt>
+            <dd className={classes.main__dd}>2020年1月6日</dd>
+          </dl>
+          <dl className={classes.main__dl}>
+            <dt className={classes.main__dt_company}>資本金</dt>
+            <dd className={classes.main__dd}>5,000,000万円</dd>
+          </dl>
+          <dl className={classes.main__dl}>
+            <dt className={classes.main__dt_company}>事業内容</dt>
             <dd className={classes.main__dd}>
-              テスト。テスト。テスト。テスト。
+              パソコンのトラブルサポート
+              <br />
+              販売管理・会計・給与ソフトウェアのご指導
+              <br />
+              オリジナルソフトウェアの作成
+              <br />
+              OA機器の販売・リース取扱
             </dd>
           </dl>
           <dl className={classes.main__dl}>
             <dt className={classes.main__dt_company}>取締役</dt>
-            <dd className={classes.main__dd}>川﨑靖彦　　代表取締役社長</dd>
+            <dd className={classes.main__dd}>代表取締役　川﨑靖彦</dd>
           </dl>
           <dl className={classes.main__dl}>
             <dt className={classes.main__dt_company}>所在地</dt>
             <dd className={classes.main__dd}>
-              テスト。テスト。テスト。テスト。
+              〒831-0026
+              <br />
+              福岡県大川市三丸795-4
             </dd>
           </dl>
         </section>

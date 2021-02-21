@@ -39,10 +39,13 @@ export default function Contact() {
           property="og:description"
           content="株式会社 West Japan Systemの「お問い合わせ」です。"
         />
-        <meta property="og:url" content="https://wjs.net/contact" />
+        <meta
+          property="og:url"
+          content="https://west-japan-system.com/contact"
+        />
         <meta
           property="og:image"
-          content="https://wjs.net/images/company-logo.jpg"
+          content="https://west-japan-system.com/images/company-logo.jpg"
         />
         <meta property="og:site_name" content="株式会社West Japan System" />
         <meta property="og:locale" content="ja_JP" />
@@ -51,7 +54,7 @@ export default function Contact() {
           rel="apple-touch-icon-precomposed"
           href="/images/apple-touch-icon.png"
         />
-        <link rel="canonical" href="https://wjs.net" />
+        <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
         <title>お問い合わせ | 株式会社 West Japan System</title>
       </Head>
@@ -124,11 +127,15 @@ export default function Contact() {
         <section className={classes.main__section_about}>
           <dl className={classes.main__dl}>
             <dt className={classes.main__dt_contact}>電話番号</dt>
-            <dd className={classes.main__dd}>xxx-xxxx-xxxx</dd>
+            <dd className={classes.main__dd}>0944-86-4843</dd>
+          </dl>
+          <dl className={classes.main__dl}>
+            <dt className={classes.main__dt_contact}>FAX</dt>
+            <dd className={classes.main__dd}>0944-86-4854</dd>
           </dl>
           <dl className={classes.main__dl}>
             <dt className={classes.main__dt_contact}>メールアドレス</dt>
-            <dd className={classes.main__dd}>xxxxx@example.com</dd>
+            <dd className={classes.main__dd}>wjs@kumin.ne.jp</dd>
           </dl>
         </section>
       </main>
