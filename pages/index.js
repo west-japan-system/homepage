@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
-import classes from "../components/layout.module.css";
+import classes from "/components/layout.module.css";
 
 export default function Home() {
   const [open, setOpen] = useState(false);
