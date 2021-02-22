@@ -33,3 +33,286 @@ button {
   padding: 0;
   appearance: none;
 }
+
+/* layout style */
+.header {
+  position: relative;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background: #fff;
+  opacity: 0.97;
+  border: 1px solid #efefef;
+  padding: 1rem;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu_logo__position {
+  margin: auto 0;
+}
+
+.header__menu_icon {
+  width: 2.5rem;
+}
+
+.header__menu_icon__position {
+  text-align: right;
+}
+
+.header__menu_logo {
+  width: 9rem;
+  height: 1.4rem;
+}
+
+.header__navigation {
+  margin: auto 0;
+}
+
+.header__menu_item {
+  font-size: 1rem;
+  margin-left: 1rem;
+  display: none;
+}
+
+.header__menu_mobile {
+  position: absolute;
+  width: 70%;
+  height: 100vh;
+  top: 0;
+  background: #fff;
+  transition: 0.2s;
+  z-index: 10;
+}
+
+.header__menu_mobile__item {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 2.5rem 0;
+}
+
+.header__closeButton {
+  width: 3rem;
+  margin: 1rem;
+}
+
+.open {
+  right: 0px;
+  transition: 0.15s;
+}
+
+.outside {
+  right: -500%;
+  transition: 0.5s;
+}
+
+.hidden {
+  display: none;
+}
+
+.header__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}
+
+.main__section_img {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+    url(/images/orange.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 11rem;
+}
+
+.main__title {
+  text-align: center;
+  padding-bottom: 8rem;
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.main__article_about,
+.main__section_about {
+  margin: 9rem 1rem 10rem;
+}
+
+.main__title_secondary {
+  position: relative;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 3.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.main__paragraph {
+  font-size: 1rem;
+}
+
+.main__dl {
+  display: flex;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 2.3rem;
+}
+
+.main__dt_company {
+  width: 8rem;
+  font-size: 1rem;
+}
+
+.main__dt_contact {
+  width: 14rem;
+  font-size: 1rem;
+}
+
+.main__dd {
+  width: 18rem;
+  font-size: 1rem;
+}
+
+.footer {
+  text-align: center;
+  background: #f0f0f0;
+  font-size: 0.8rem;
+  padding: 2rem 0;
+}
+
+@media (min-width: 600px) {
+  .header {
+    padding: 1.2rem 0;
+  }
+
+  .header__menu_logo {
+    width: 12.9rem;
+    height: 1.8rem;
+  }
+
+  .header__menu {
+    margin: 0 3rem;
+  }
+
+  .header__menu_icon {
+    display: none;
+  }
+
+  .header__menu_item {
+    margin-left: 1.6rem;
+    font-size: 1.2rem;
+    display: unset;
+  }
+
+  .main__title {
+    font-size: 2.6rem;
+    padding-bottom: 12rem;
+  }
+
+  .main__section_img {
+    padding-top: 13rem;
+  }
+
+  .main__article_about,
+  .main__section_about {
+    margin: 12rem 3rem 13rem;
+  }
+
+  .main__title_secondary {
+    font-size: 1.8rem;
+  }
+
+  .main__paragraph {
+    font-size: 1.2rem;
+  }
+
+  .main__dt_company,
+  .main__dt_contact {
+    width: 16rem;
+    font-size: 1.5rem;
+  }
+
+  .main__dd {
+    width: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .main__dl {
+    margin-bottom: 3rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    padding: 2rem 0;
+  }
+
+  .header__menu {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  .header__menu_icon {
+    display: none;
+  }
+
+  .header__menu_item {
+    font-size: 1.2rem;
+    margin-left: 3.2rem;
+  }
+
+  .header__navigation {
+    margin: auto 0;
+  }
+
+  .main__section_img {
+    padding-top: 20rem;
+  }
+
+  .main__title {
+    padding-bottom: 19rem;
+    font-size: 3.5rem;
+  }
+
+  .main__article_about,
+  .main__section_about {
+    max-width: 1120px;
+    margin: 17rem auto 18rem;
+  }
+
+  .main__title_secondary {
+    font-size: 1.8rem;
+  }
+
+  .main__paragraph {
+    font-size: 1.3rem;
+  }
+
+  .main__dl {
+    margin-bottom: 4.2rem;
+  }
+
+  .main__dt_company,
+  .main__dt_contact {
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+
+  .main__dd {
+    width: 60rem;
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+    padding: 2.3rem 0;
+  }
+}

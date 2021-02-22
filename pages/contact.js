@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
-import classes from "../components/layout.module.css";
 
 export default function Contact() {
   const [open, setOpen] = useState(false);
@@ -59,53 +58,53 @@ export default function Contact() {
         <title>お問い合わせ | 株式会社 West Japan System</title>
       </Head>
 
-      <header className={classes.header}>
-        <nav className={classes.header__menu}>
+      <header className="header">
+        <nav className="header__menu">
           <Link href="/">
-            <a className={classes.header__menu_logo__position}>
+            <a className="header__menu_logo__position">
               <img
                 src="/images/company-logo.jpg"
                 alt="株式会社 West Japan Systemのロゴ"
-                className={classes.header__menu_logo}
+                className="header__menu_logo"
               />
             </a>
           </Link>
-          <div className={classes.header__navigation}>
+          <div className="header__navigation">
             <Link href="/company">
-              <a className={classes.header__menu_item}>会社概要</a>
+              <a className="header__menu_item">会社概要</a>
             </Link>
             <Link href="/contact">
-              <a className={classes.header__menu_item}>お問い合わせ</a>
+              <a className="header__menu_item">お問い合わせ</a>
             </Link>
             <button>
               <img
                 src="/images/menu-icon.png"
                 alt="メニューバーのアイコン（ハンバーガー）"
-                className={classes.header__menu_icon}
+                className="header__menu_icon"
                 onClick={() => menuFunction()}
               />
             </button>
             <ul
-              className={`${classes.header__menu_mobile} ${
-                open ? classes.open : classes.outside
+              className={`${"header__menu_mobile"} ${
+                open ? "open" : "outside"
               }`}
             >
-              <div className={classes.header__menu_icon__position}>
+              <div className="header__menu_icon__position">
                 <button>
                   <img
-                    src="images/cross-icon.png"
+                    src="/images/cross-icon.png"
                     alt="メニューバーのアイコン（クロス）"
-                    className={classes.header__closeButton}
+                    className="header__closeButton"
                     onClick={() => menuFunction()}
                   />
                 </button>
               </div>
-              <li className={classes.header__menu_mobile__item}>
+              <li className="header__menu_mobile__item">
                 <Link href="/company">
                   <a>会社概要</a>
                 </Link>
               </li>
-              <li className={classes.header__menu_mobile__item}>
+              <li className="header__menu_mobile__item">
                 <Link href="/contact">
                   <a>お問い合わせ</a>
                 </Link>
@@ -114,32 +113,30 @@ export default function Contact() {
           </div>
         </nav>
         <div
-          className={`${classes.header__overlay} ${
-            open ? classes.open : classes.hidden
-          }`}
+          className={`${"header__overlay"} ${open ? "open" : "hidden"}`}
           onClick={() => menuFunction()}
         ></div>
       </header>
-      <main className={classes.main}>
-        <section className={classes.main__section_img}>
-          <h1 className={classes.main__title}>お問い合わせ</h1>
+      <main className="main">
+        <section className="main__section_img">
+          <h1 className="main__title">お問い合わせ</h1>
         </section>
-        <section className={classes.main__section_about}>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_contact}>電話番号</dt>
-            <dd className={classes.main__dd}>0944-86-4843</dd>
+        <section className="main__section_about">
+          <dl className="main__dl">
+            <dt className="main__dt_contact">電話番号</dt>
+            <dd className="main__dd">0944-86-4843</dd>
           </dl>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_contact}>FAX</dt>
-            <dd className={classes.main__dd}>0944-86-4854</dd>
+          <dl className="main__dl">
+            <dt className="main__dt_contact">FAX</dt>
+            <dd className="main__dd">0944-86-4854</dd>
           </dl>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_contact}>メールアドレス</dt>
-            <dd className={classes.main__dd}>wjs@kumin.ne.jp</dd>
+          <dl className="main__dl">
+            <dt className="main__dt_contact">メールアドレス</dt>
+            <dd className="main__dd">wjs@kumin.ne.jp</dd>
           </dl>
         </section>
       </main>
-      <footer className={classes.footer}>
+      <footer className="footer">
         <small>©️株式会社 West Japan System</small>
       </footer>
     </>

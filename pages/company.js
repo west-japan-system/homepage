@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
-import classes from "../components/layout.module.css";
 
 export default function Company() {
   const [open, setOpen] = useState(false);
@@ -56,53 +55,53 @@ export default function Company() {
         <title>会社概要 | 株式会社 West Japan System</title>
       </Head>
 
-      <header className={classes.header}>
-        <nav className={classes.header__menu}>
+      <header className="header">
+        <nav className="header__menu">
           <Link href="/">
-            <a className={classes.header__menu_logo__position}>
+            <a className="header__menu_logo__position">
               <img
                 src="/images/company-logo.jpg"
                 alt="株式会社 West Japan Systemのロゴ"
-                className={classes.header__menu_logo}
+                className="header__menu_logo"
               />
             </a>
           </Link>
-          <div className={classes.header__navigation}>
+          <div className="header__navigation">
             <Link href="/company">
-              <a className={classes.header__menu_item}>会社概要</a>
+              <a className="header__menu_item">会社概要</a>
             </Link>
             <Link href="/contact">
-              <a className={classes.header__menu_item}>お問い合わせ</a>
+              <a className="header__menu_item">お問い合わせ</a>
             </Link>
             <button>
               <img
                 src="/images/menu-icon.png"
                 alt="メニューバーのアイコン（ハンバーガー）"
-                className={classes.header__menu_icon}
+                className="header__menu_icon"
                 onClick={() => menuFunction()}
               />
             </button>
             <ul
-              className={`${classes.header__menu_mobile} ${
-                open ? classes.open : classes.outside
+              className={`${"header__menu_mobile"} ${
+                open ? "open" : "outside"
               }`}
             >
-              <div className={classes.header__menu_icon__position}>
+              <div className="header__menu_icon__position">
                 <button>
                   <img
                     src="/images/cross-icon.png"
                     alt="メニューバーのアイコン（クロス）"
-                    className={classes.header__closeButton}
+                    className="header__closeButton"
                     onClick={() => menuFunction()}
                   />
                 </button>
               </div>
-              <li className={classes.header__menu_mobile__item}>
+              <li className="header__menu_mobile__item">
                 <Link href="/company">
                   <a>会社概要</a>
                 </Link>
               </li>
-              <li className={classes.header__menu_mobile__item}>
+              <li className="header__menu_mobile__item">
                 <Link href="/contact">
                   <a>お問い合わせ</a>
                 </Link>
@@ -111,36 +110,34 @@ export default function Company() {
           </div>
         </nav>
         <div
-          className={`${classes.header__overlay} ${
-            open ? classes.open : classes.hidden
-          }`}
+          className={`${"header__overlay"} ${open ? "open" : "hidden"}`}
           onClick={() => menuFunction()}
         ></div>
       </header>
-      <main className={classes.main}>
-        <section className={classes.main__section_img}>
-          <h1 className={classes.main__title}>会社概要</h1>
+      <main className="main">
+        <section className="main__section_img">
+          <h1 className="main__title">会社概要</h1>
         </section>
-        <section className={classes.main__section_about}>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>会社名</dt>
-            <dd className={classes.main__dd}>株式会社 West Japan System</dd>
+        <section className="main__section_about">
+          <dl className="main__dl">
+            <dt className="main__dt_company">会社名</dt>
+            <dd className="main__dd">株式会社 West Japan System</dd>
           </dl>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>設立</dt>
-            <dd className={classes.main__dd}>2003年1月</dd>
+          <dl className="main__dl">
+            <dt className="main__dt_company">設立</dt>
+            <dd className="main__dd">2003年1月</dd>
           </dl>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>創業</dt>
-            <dd className={classes.main__dd}>2020年1月6日</dd>
+          <dl className="main__dl">
+            <dt className="main__dt_company">創業</dt>
+            <dd className="main__dd">2020年1月6日</dd>
           </dl>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>資本金</dt>
-            <dd className={classes.main__dd}>5,000,000円</dd>
+          <dl className="main__dl">
+            <dt className="main__dt_company">資本金</dt>
+            <dd className="main__dd">5,000,000円</dd>
           </dl>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>事業内容</dt>
-            <dd className={classes.main__dd}>
+          <dl className="main__dl">
+            <dt className="main__dt_company">事業内容</dt>
+            <dd className="main__dd">
               パソコンのトラブルサポート
               <br />
               販売管理・会計・給与ソフトウェアのご指導
@@ -150,13 +147,13 @@ export default function Company() {
               OA機器の販売・リース取扱
             </dd>
           </dl>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>取締役</dt>
-            <dd className={classes.main__dd}>代表取締役　川﨑靖彦</dd>
+          <dl className="main__dl">
+            <dt className="main__dt_company">取締役</dt>
+            <dd className="main__dd">代表取締役　川﨑靖彦</dd>
           </dl>
-          <dl className={classes.main__dl}>
-            <dt className={classes.main__dt_company}>所在地</dt>
-            <dd className={classes.main__dd}>
+          <dl className="main__dl">
+            <dt className="main__dt_company">所在地</dt>
+            <dd className="main__dd">
               〒831-0026
               <br />
               福岡県大川市三丸795-4
@@ -164,7 +161,7 @@ export default function Company() {
           </dl>
         </section>
       </main>
-      <footer className={classes.footer}>
+      <footer className="footer">
         <small>©️株式会社 West Japan System</small>
       </footer>
     </>

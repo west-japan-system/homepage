@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
-import classes from "../components/layout.module.css";
 
 export default function Home() {
   const [open, setOpen] = useState(false);
@@ -53,53 +52,53 @@ export default function Home() {
         <title>株式会社West Japan System</title>
       </Head>
 
-      <header className={classes.header}>
-        <nav className={classes.header__menu}>
+      <header className="header">
+        <nav className="header__menu">
           <Link href="/">
-            <a className={classes.header__menu_logo__position}>
+            <a className="header__menu_logo__position">
               <img
                 src="/images/company-logo.jpg"
                 alt="株式会社 West Japan Systemロゴ"
-                className={classes.header__menu_logo}
+                className="header__menu_logo"
               />
             </a>
           </Link>
-          <div className={classes.header__navigation}>
+          <div className="header__navigation">
             <Link href="/company">
-              <a className={classes.header__menu_item}>会社概要</a>
+              <a className="header__menu_item">会社概要</a>
             </Link>
             <Link href="/contact">
-              <a className={classes.header__menu_item}>お問い合わせ</a>
+              <a className="header__menu_item">お問い合わせ</a>
             </Link>
             <button>
               <img
                 src="/images/menu-icon.png"
                 alt="メニューバーアイコン（ハンバーガー）"
-                className={classes.header__menu_icon}
+                className="header__menu_icon"
                 onClick={() => menuFunction()}
               />
             </button>
             <ul
-              className={`${classes.header__menu_mobile} ${
-                open ? classes.open : classes.outside
+              className={`${"header__menu_mobile"} ${
+                open ? "open" : "outside"
               }`}
             >
-              <div className={classes.header__menu_icon__position}>
+              <div className="header__menu_icon__position">
                 <button>
                   <img
-                    src="images/cross-icon.png"
+                    src="/images/cross-icon.png"
                     alt="メニューバーアイコン（クロス）"
-                    className={classes.header__closeButton}
+                    className="header__closeButton"
                     onClick={() => menuFunction()}
                   />
                 </button>
               </div>
-              <li className={classes.header__menu_mobile__item}>
+              <li className="header__menu_mobile__item">
                 <Link href="/company">
                   <a>会社概要</a>
                 </Link>
               </li>
-              <li className={classes.header__menu_mobile__item}>
+              <li className="header__menu_mobile__item">
                 <Link href="/contact">
                   <a>お問い合わせ</a>
                 </Link>
@@ -108,28 +107,24 @@ export default function Home() {
           </div>
         </nav>
         <div
-          className={`${classes.header__overlay} ${
-            open ? classes.open : classes.hidden
-          }`}
+          className={`${"header__overlay"} ${open ? "open" : "hidden"}`}
           onClick={() => menuFunction()}
         ></div>
       </header>
-      <main className={classes.main}>
-        <section className={classes.main__section_img}>
-          <h1 className={classes.main__title}>株式会社 West Japan System</h1>
+      <main className="main">
+        <section className="main__section_img">
+          <h1 className="main__title">株式会社 West Japan System</h1>
         </section>
-        <article className={classes.main__article_about}>
-          <h2 className={classes.main__title_secondary}>
-            West Japan Systemについて
-          </h2>
-          <p className={classes.main__paragraph}>
+        <article className="main__article_about">
+          <h2 className="main__title_secondary">West Japan Systemについて</h2>
+          <p className="main__paragraph">
             私たちはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。
             <br />
             日々お客様のことを考え、想像し、お客様のニーズにお答えします。対応はどこよりも早く、丁寧で綺麗に。
           </p>
         </article>
       </main>
-      <footer className={classes.footer}>
+      <footer className="footer">
         <small>©️株式会社 West Japan System</small>
       </footer>
     </>
