@@ -44,7 +44,7 @@ export default function Contact() {
         />
         <meta
           property="og:image"
-          content="https://west-japan-system.com/images/company_ogp-icon.png"
+          content="https://west-japan-system.com/images/company_ogp-logo.png"
         />
         <meta property="og:site_name" content="株式会社West Japan System" />
         <meta property="og:locale" content="ja_JP" />
