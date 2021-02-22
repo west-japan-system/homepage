@@ -41,7 +41,7 @@ export default function Company() {
         />
         <meta
           property="og:image"
-          content="https://west-japan-system.com/images/company-logo.jpg"
+          content="https://west-japan-system.com/images/company_ogp-icon.png"
         />
         <meta property="og:site_name" content="株式会社West Japan System" />
         <meta property="og:locale" content="ja_JP" />
