@@ -77,6 +77,8 @@ export default function Home() {
               <img
                 src="/images/menu-icon.png"
                 alt="メニューバーアイコン（ハンバーガー）"
+                width="40"
+                height="40"
                 className="header__menu_icon"
                 onClick={() => menuFunction()}
               />
@@ -91,6 +93,8 @@ export default function Home() {
                   <img
                     src="/images/cross-icon.png"
                     alt="メニューバーアイコン（クロス）"
+                    width="40"
+                    height="40"
                     className="header__closeButton"
                     onClick={() => menuFunction()}
                   />

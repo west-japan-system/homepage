@@ -55,17 +55,8 @@ button {
   margin: auto 0;
 }
 
-.header__menu_icon {
-  width: 2.5rem;
-}
-
 .header__menu_icon__position {
   text-align: right;
-}
-
-.header__menu_logo {
-  width: 9rem;
-  height: 1.4rem;
 }
 
 .header__navigation {
@@ -95,7 +86,6 @@ button {
 }
 
 .header__closeButton {
-  width: 3rem;
   margin: 1rem;
 }
 
@@ -189,11 +179,6 @@ button {
     padding: 1.2rem 0;
   }
 
-  .header__menu_logo {
-    width: 12.9rem;
-    height: 1.8rem;
-  }
-
   .header__menu {
     margin: 0 3rem;
   }
@@ -258,10 +243,6 @@ button {
   .header__menu {
     max-width: 1120px;
     margin: 0 auto;
-  }
-
-  .header__menu_icon {
-    display: none;
   }
 
   .header__menu_item {
