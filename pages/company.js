@@ -28,7 +28,7 @@ export default function Company() {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="keywords"
-          content="West Japan System, west japan system, ウエストジャパンシステム"
+          content="West Japan System,west japan system,ウエストジャパンシステム"
         />
         <meta property="og:title" content="株式会社West Japan System" />
         <meta property="og:type" content="article" />
@@ -63,9 +63,9 @@ export default function Company() {
               <Image
                 src="/images/company-logo.jpg"
                 alt="West Japan Systemロゴ"
+                width={180}
+                height={30}
                 className="header__menu_logo"
-                width={200}
-                height={35}
               />
             </a>
           </Link>
@@ -80,6 +80,8 @@ export default function Company() {
               <img
                 src="/images/menu-icon.png"
                 alt="メニューバーのアイコン（ハンバーガー）"
+                width="40"
+                height="40"
                 className="header__menu_icon"
                 onClick={() => menuFunction()}
               />
@@ -94,6 +96,8 @@ export default function Company() {
                   <img
                     src="/images/cross-icon.png"
                     alt="メニューバーのアイコン（クロス）"
+                    width="40"
+                    height="40"
                     className="header__closeButton"
                     onClick={() => menuFunction()}
                   />
@@ -124,7 +128,7 @@ export default function Company() {
         <section className="main__section_about">
           <dl className="main__dl">
             <dt className="main__dt_company">会社名</dt>
-            <dd className="main__dd">株式会社 West Japan System</dd>
+            <dd className="main__dd">株式会社West Japan System</dd>
           </dl>
           <dl className="main__dl">
             <dt className="main__dt_company">設立</dt>

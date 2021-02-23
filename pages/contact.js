@@ -20,7 +20,7 @@ export default function Contact() {
         />
         <meta
           name="keywords"
-          content="West Japan System, west japan system, ウエストジャパンシステム"
+          content="West Japan System,west japan system,ウエストジャパンシステム"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
@@ -66,9 +66,9 @@ export default function Contact() {
               <Image
                 src="/images/company-logo.jpg"
                 alt="West Japan Systemロゴ"
+                width={180}
+                height={30}
                 className="header__menu_logo"
-                width={200}
-                height={35}
               />
             </a>
           </Link>
@@ -83,6 +83,8 @@ export default function Contact() {
               <img
                 src="/images/menu-icon.png"
                 alt="メニューバーのアイコン（ハンバーガー）"
+                width="40"
+                height="40"
                 className="header__menu_icon"
                 onClick={() => menuFunction()}
               />
@@ -97,6 +99,8 @@ export default function Contact() {
                   <img
                     src="/images/cross-icon.png"
                     alt="メニューバーのアイコン（クロス）"
+                    width="40"
+                    height="40"
                     className="header__closeButton"
                     onClick={() => menuFunction()}
                   />

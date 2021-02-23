@@ -28,7 +28,7 @@ export default function Home() {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="keywords"
-          content="West Japan System, west japan system, ウエストジャパンシステム"
+          content="West Japan System,west japan system,ウエストジャパンシステム"
         />
         <meta property="og:title" content="株式会社West Japan System" />
         <meta property="og:type" content="website" />
@@ -60,9 +60,9 @@ export default function Home() {
               <Image
                 src="/images/company-logo.jpg"
                 alt="West Japan Systemロゴ"
+                width={180}
+                height={30}
                 className="header__menu_logo"
-                width={200}
-                height={35}
               />
             </a>
           </Link>
