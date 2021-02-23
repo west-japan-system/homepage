@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
         <meta http-equiv="content-language" content="ja" />
         <meta
           name="description"
-          content="株式会社 West Japan Systemのウェブサイトです。West Japan Systemは日々お客様のことを考え、想像し、お客様のニーズにお答えします。対応はどこよりも早く、丁寧で綺麗に。「お客様の業務を止めない」これが私たちの掲げる信念です。"
+          content="株式会社West Japan Systemのウェブサイトです。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
@@ -33,7 +34,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="株式会社 West Japan Systemのウェブサイトです。West Japan Systemは日々お客様のことを考え、想像し、お客様のニーズにお答えします。対応はどこよりも早く、丁寧で綺麗に。「お客様の業務を止めない」これが私たちの掲げる信念です。"
+          content="株式会社 West Japan Systemのウェブサイトです。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
         <meta property="og:url" content="https://west-japan-system.com" />
         <meta
@@ -56,10 +57,12 @@ export default function Home() {
         <nav className="header__menu">
           <Link href="/">
             <a className="header__menu_logo__position">
-              <img
+              <Image
                 src="/images/company-logo.jpg"
-                alt="株式会社 West Japan Systemロゴ"
+                alt="West Japan Systemロゴ"
                 className="header__menu_logo"
+                width={200}
+                height={35}
               />
             </a>
           </Link>
@@ -113,7 +116,7 @@ export default function Home() {
       </header>
       <main className="main">
         <section className="main__section_img">
-          <h1 className="main__title">株式会社 West Japan System</h1>
+          <h1 className="main__title">株式会社West Japan System</h1>
         </section>
         <article className="main__article_about">
           <h2 className="main__title_secondary">West Japan Systemについて</h2>
@@ -125,7 +128,7 @@ export default function Home() {
         </article>
       </main>
       <footer className="footer">
-        <small>©️株式会社 West Japan System</small>
+        <small>©️株式会社West Japan System</small>
       </footer>
     </>
   );

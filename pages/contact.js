@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 
 export default function Contact() {
@@ -15,7 +16,7 @@ export default function Contact() {
         <meta http-equiv="content-language" content="ja" />
         <meta
           name="description"
-          content="株式会社 West Japan Systemの「お問い合わせ」です。"
+          content="株式会社West Japan Systemの「お問い合わせ」です。"
         />
         <meta
           name="keywords"
@@ -31,12 +32,12 @@ export default function Contact() {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           property="og:title"
-          content="お問い合わせ | 株式会社 West Japan System"
+          content="お問い合わせ | 株式会社West Japan System"
         />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="株式会社 West Japan Systemの「お問い合わせ」です。"
+          content="株式会社West Japan Systemの「お問い合わせ」です。"
         />
         <meta
           property="og:url"
@@ -55,17 +56,19 @@ export default function Contact() {
         />
         <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
-        <title>お問い合わせ | 株式会社 West Japan System</title>
+        <title>お問い合わせ | 株式会社West Japan System</title>
       </Head>
 
       <header className="header">
         <nav className="header__menu">
           <Link href="/">
             <a className="header__menu_logo__position">
-              <img
+              <Image
                 src="/images/company-logo.jpg"
-                alt="株式会社 West Japan Systemのロゴ"
+                alt="West Japan Systemロゴ"
                 className="header__menu_logo"
+                width={200}
+                height={35}
               />
             </a>
           </Link>
@@ -137,7 +140,7 @@ export default function Contact() {
         </section>
       </main>
       <footer className="footer">
-        <small>©️株式会社 West Japan System</small>
+        <small>©️株式会社West Japan System</small>
       </footer>
     </>
   );

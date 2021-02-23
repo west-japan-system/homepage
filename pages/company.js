@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 
 export default function Company() {
@@ -15,7 +16,7 @@ export default function Company() {
         <meta http-equiv="content-language" content="ja" />
         <meta
           name="description"
-          content="株式会社 West Japan Systemの「会社概要」です。"
+          content="株式会社West Japan Systemの「会社概要」です。"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
@@ -33,7 +34,7 @@ export default function Company() {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="株式会社 West Japan Systemの「会社概要」です。"
+          content="株式会社West Japan Systemの「会社概要」です。"
         />
         <meta
           property="og:url"
@@ -52,17 +53,19 @@ export default function Company() {
         />
         <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
-        <title>会社概要 | 株式会社 West Japan System</title>
+        <title>会社概要 | 株式会社West Japan System</title>
       </Head>
 
       <header className="header">
         <nav className="header__menu">
           <Link href="/">
             <a className="header__menu_logo__position">
-              <img
+              <Image
                 src="/images/company-logo.jpg"
-                alt="株式会社 West Japan Systemのロゴ"
+                alt="West Japan Systemロゴ"
                 className="header__menu_logo"
+                width={200}
+                height={35}
               />
             </a>
           </Link>
@@ -162,7 +165,7 @@ export default function Company() {
         </section>
       </main>
       <footer className="footer">
-        <small>©️株式会社 West Japan System</small>
+        <small>©️株式会社West Japan System</small>
       </footer>
     </>
   );
