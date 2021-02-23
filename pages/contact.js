@@ -79,13 +79,12 @@ export default function Contact() {
             <Link href="/contact">
               <a className="header__menu_item">お問い合わせ</a>
             </Link>
-            <button>
-              <img
+            <button className="header__menu_icon">
+              <Image
                 src="/images/menu-icon.png"
                 alt="メニューバーのアイコン（ハンバーガー）"
-                width="40"
-                height="40"
-                className="header__menu_icon"
+                width={40}
+                height={40}
                 onClick={() => menuFunction()}
               />
             </button>
@@ -94,14 +93,13 @@ export default function Contact() {
                 open ? "open" : "outside"
               }`}
             >
-              <div className="header__menu_icon__position">
-                <button>
-                  <img
+              <div className="header__cross_icon__position">
+                <button className="header__cross_icon">
+                  <Image
                     src="/images/cross-icon.png"
                     alt="メニューバーのアイコン（クロス）"
-                    width="40"
-                    height="40"
-                    className="header__closeButton"
+                    width={40}
+                    height={40}
                     onClick={() => menuFunction()}
                   />
                 </button>

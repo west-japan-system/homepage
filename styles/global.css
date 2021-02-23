@@ -55,7 +55,7 @@ button {
   margin: auto 0;
 }
 
-.header__menu_icon__position {
+.header__cross_icon__position {
   text-align: right;
 }
 
@@ -85,7 +85,7 @@ button {
   margin: 2.5rem 0;
 }
 
-.header__closeButton {
+.header__cross_icon {
   margin: 1rem;
 }
 
