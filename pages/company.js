@@ -154,7 +154,7 @@ export default function Company() {
           </dl>
           <dl className="main__dl">
             <dt className="main__dt_company">取締役</dt>
-            <dd className="main__dd">代表取締役　川﨑靖彦</dd>
+            <dd className="main__dd">代表取締役　川崎靖彦</dd>
           </dl>
           <dl className="main__dl">
             <dt className="main__dt_company">所在地</dt>

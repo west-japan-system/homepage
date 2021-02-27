@@ -34,7 +34,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="株式会社 West Japan Systemのウェブサイトです。私たちはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
+          content="株式会社West Japan Systemのウェブサイトです。私たちはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
         <meta property="og:url" content="https://west-japan-system.com" />
         <meta
