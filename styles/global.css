@@ -165,6 +165,7 @@ button {
 .main__dd {
   width: 18rem;
   font-size: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer {
