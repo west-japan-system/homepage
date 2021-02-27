@@ -28,7 +28,7 @@ export default function Home() {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="keywords"
-          content="West Japan System,west japan system,ウエストジャパンシステム"
+          content="WestJapanSystem,westjapansystem,ウエストジャパンシステム"
         />
         <meta property="og:title" content="株式会社West Japan System" />
         <meta property="og:type" content="website" />

@@ -20,7 +20,7 @@ export default function Contact() {
         />
         <meta
           name="keywords"
-          content="West Japan System,west japan system,ウエストジャパンシステム"
+          content="WestJapanSystem,westjapansystem,ウエストジャパンシステム"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
