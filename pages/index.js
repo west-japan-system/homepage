@@ -52,16 +52,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <title>株式会社WestJapanSystem</title>
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "url": "https://west-japan-system.com/",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://query.west-japan-system.com/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-        }
+          type="application/ld+json" dangerouslySetInnerHTML=
+          {{
+            __html: `
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "url": "https://www.west-japan-system.com/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://west-japan-system.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }`,
+          }}
         </script>
       </Head>
 
