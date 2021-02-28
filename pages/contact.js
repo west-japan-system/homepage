@@ -16,11 +16,11 @@ export default function Contact() {
         <meta http-equiv="content-language" content="ja" />
         <meta
           name="description"
-          content="株式会社West Japan Systemの「お問い合わせ」です。"
+          content="株式会社WestJapanSystemの「お問い合わせ」です。"
         />
         <meta
           name="keywords"
-          content="WestJapanSystem,westjapansystem,ウエストジャパンシステム"
+          content="West Japan System,west japan system,ウエストジャパンシステム"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
@@ -28,16 +28,16 @@ export default function Contact() {
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="apple-mobile-web-app-title" content="West Japan System" />
+        <meta name="apple-mobile-web-app-title" content="WestJapanSystem" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           property="og:title"
-          content="お問い合わせ | 株式会社West Japan System"
+          content="お問い合わせ | 株式会社WestJapanSystem"
         />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="株式会社West Japan Systemの「お問い合わせ」です。"
+          content="株式会社WestJapanSystemの「お問い合わせ」です。"
         />
         <meta
           property="og:url"
@@ -47,7 +47,7 @@ export default function Contact() {
           property="og:image"
           content="https://west-japan-system.com/images/company_ogp-logo.png"
         />
-        <meta property="og:site_name" content="株式会社West Japan System" />
+        <meta property="og:site_name" content="株式会社WestJapanSystem" />
         <meta property="og:locale" content="ja_JP" />
         <noscript data-n-css="true"></noscript>
         <link
@@ -56,7 +56,7 @@ export default function Contact() {
         />
         <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
-        <title>お問い合わせ | 株式会社West Japan System</title>
+        <title>お問い合わせ | 株式会社WestJapanSystem</title>
       </Head>
 
       <header className="header">
@@ -65,7 +65,7 @@ export default function Contact() {
             <a className="header__menu_logo__position">
               <Image
                 src="/images/company-logo.jpg"
-                alt="West Japan Systemロゴ"
+                alt="WestJapanSystemロゴ"
                 width={180}
                 height={30}
                 className="header__menu_logo"
@@ -142,7 +142,7 @@ export default function Contact() {
         </section>
       </main>
       <footer className="footer">
-        <small>©️株式会社West Japan System</small>
+        <small>©️株式会社WestJapanSystem</small>
       </footer>
     </>
   );
