@@ -51,6 +51,22 @@ export default function Home() {
         <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
         <title>株式会社WestJapanSystem</title>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              url: "https://west-japan-system.com/",
+              potentialAction: {
+                "@type": "SearchAction",
+                target:
+                  "https://west-japan-system.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
       </Head>
 
       <header className="header">
