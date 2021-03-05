@@ -105,6 +105,11 @@ export default function Contact() {
                 </button>
               </div>
               <li className="header__menu_mobile__item">
+                <Link href="/">
+                  <a>Home</a>
+                </Link>
+              </li>
+              <li className="header__menu_mobile__item">
                 <Link href="/company">
                   <a>会社概要</a>
                 </Link>
