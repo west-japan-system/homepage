@@ -16,7 +16,7 @@ export default function Company() {
         <meta http-equiv="content-language" content="ja" />
         <meta
           name="description"
-          content="株式会社WestJapanSystemの「会社概要」です。"
+          content="株式会社West Japan Systemの「会社概要」です。"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
@@ -28,13 +28,13 @@ export default function Company() {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="keywords"
-          content="West Japan System,west japan system,ウエストジャパンシステム"
+          content="WestJapanSystem,westjapansystem,ウエストジャパンシステム"
         />
-        <meta property="og:title" content="株式会社WestJapanSystem" />
+        <meta property="og:title" content="株式会社West Japan System" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="株式会社WestJapanSystemの「会社概要」です。"
+          content="株式会社West Japan Systemの「会社概要」です。"
         />
         <meta
           property="og:url"
@@ -44,7 +44,7 @@ export default function Company() {
           property="og:image"
           content="https://west-japan-system.com/images/company_ogp-logo.png"
         />
-        <meta property="og:site_name" content="株式会社WestJapanSystem" />
+        <meta property="og:site_name" content="株式会社West Japan System" />
         <meta property="og:locale" content="ja_JP" />
         <noscript data-n-css="true"></noscript>
         <link
@@ -53,7 +53,7 @@ export default function Company() {
         />
         <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
-        <title>会社概要 | 株式会社WestJapanSystem</title>
+        <title>会社概要 | 株式会社West Japan System</title>
       </Head>
 
       <header className="header">
@@ -62,7 +62,7 @@ export default function Company() {
             <a className="header__menu_logo__position">
               <Image
                 src="/images/company-logo.jpg"
-                alt="WestJapanSystemロゴ"
+                alt="West Japan Systemロゴ"
                 width={180}
                 height={30}
                 className="header__menu_logo"
@@ -126,7 +126,7 @@ export default function Company() {
         <section className="main__section_about">
           <dl className="main__dl">
             <dt className="main__dt_company">会社名</dt>
-            <dd className="main__dd">株式会社WestJapanSystem</dd>
+            <dd className="main__dd">株式会社West Japan System</dd>
           </dl>
           <dl className="main__dl">
             <dt className="main__dt_company">設立</dt>
@@ -167,7 +167,7 @@ export default function Company() {
         </section>
       </main>
       <footer className="footer">
-        <small>©️株式会社WestJapanSystem</small>
+        <small>©️株式会社West Japan System</small>
       </footer>
     </>
   );

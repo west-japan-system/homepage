@@ -16,7 +16,7 @@ export default function Home() {
         <meta http-equiv="content-language" content="ja" />
         <meta
           name="description"
-          content="株式会社WestJapanSystemのウェブサイトです。私たちはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
+          content="株式会社West Japan Systemのウェブサイトです。West Japan Systemはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
@@ -28,20 +28,20 @@ export default function Home() {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="keywords"
-          content="West Japan System,west japan system,ウエストジャパンシステム"
+          content="WestJapanSystem,westjapansystem,ウエストジャパンシステム"
         />
-        <meta property="og:title" content="株式会社WestJapanSystem" />
+        <meta property="og:title" content="株式会社West Japan System" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="株式会社WestJapanSystemのウェブサイトです。私たちはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
+          content="株式会社West Japan Systemのウェブサイトです。West Japan Systemはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
         <meta property="og:url" content="https://west-japan-system.com" />
         <meta
           property="og:image"
           content="https://west-japan-system.com/images/company_ogp-logo.png"
         />
-        <meta property="og:site_name" content="株式会社WestJapanSystem" />
+        <meta property="og:site_name" content="株式会社West Japan System" />
         <meta property="og:locale" content="ja_JP" />
         <noscript data-n-css="true"></noscript>
         <link
@@ -50,14 +50,14 @@ export default function Home() {
         />
         <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
-        <title>株式会社WestJapanSystem</title>
+        <title>株式会社West Japan System</title>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              url: "https://west-japan-system.com/",
+              url: "https://www.west-japan-system.com/",
               potentialAction: {
                 "@type": "SearchAction",
                 target:
@@ -75,7 +75,7 @@ export default function Home() {
             <a className="header__menu_logo__position">
               <Image
                 src="/images/company-logo.jpg"
-                alt="WestJapanSystemロゴ"
+                alt="West Japan Systemロゴ"
                 width={180}
                 height={30}
                 className="header__menu_logo"
@@ -134,10 +134,10 @@ export default function Home() {
       </header>
       <main className="main">
         <section className="main__section_img">
-          <h1 className="main__title">株式会社WestJapanSystem</h1>
+          <h1 className="main__title">株式会社West Japan System</h1>
         </section>
         <article className="main__article_about">
-          <h2 className="main__title_secondary">WestJapanSystemについて</h2>
+          <h2 className="main__title_secondary">West Japan Systemについて</h2>
           <p className="main__paragraph">
             私たちはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。
             <br />
@@ -146,7 +146,7 @@ export default function Home() {
         </article>
       </main>
       <footer className="footer">
-        <small>©️株式会社WestJapanSystem</small>
+        <small>©️株式会社West Japan System</small>
       </footer>
     </>
   );
