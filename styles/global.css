@@ -155,11 +155,13 @@ button {
 .main__dt_company {
   width: 8rem;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .main__dt_contact {
   width: 14rem;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .main__dd {
