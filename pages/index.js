@@ -24,7 +24,7 @@ export default function Home() {
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="apple-mobile-web-app-title" content="West Japan System" />
+        <meta name="apple-mobile-web-app-title" content="WestJapanSystem" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="keywords"
@@ -83,9 +83,7 @@ export default function Home() {
               />
             </button>
             <ul
-              className={`${"header__menu-mobile"} ${
-                open ? "open" : "outside"
-              }`}
+              className={`${"header__menu-mobile"} ${open ? "open" : "close"}`}
             >
               <div className="header__cross-icon--position">
                 <button className="header__cross-icon">
