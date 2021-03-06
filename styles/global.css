@@ -36,7 +36,6 @@ button {
 
 /* layout style */
 .header {
-  position: relative;
   width: 100%;
   position: fixed;
   z-index: 100;
@@ -119,7 +118,7 @@ button {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 40vh;
+  min-height: 42vh;
 }
 
 .main__title {
