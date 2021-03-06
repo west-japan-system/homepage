@@ -24,7 +24,7 @@ export default function Company() {
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="apple-mobile-web-app-title" content="WestJapanSystem" />
+        <meta name="apple-mobile-web-app-title" content="West Japan System" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="keywords"
@@ -59,24 +59,24 @@ export default function Company() {
       <header className="header">
         <nav className="header__menu">
           <Link href="/">
-            <a className="header__menu_logo__position">
+            <a className="header__menu-logo--position">
               <Image
                 src="/images/company-logo.jpg"
                 alt="West Japan Systemロゴ"
-                width={180}
-                height={30}
-                className="header__menu_logo"
+                width={192}
+                height={32}
+                className="header__menu-logo"
               />
             </a>
           </Link>
           <div className="header__navigation">
             <Link href="/company">
-              <a className="header__menu_item">会社概要</a>
+              <a className="header__menu-item">会社概要</a>
             </Link>
             <Link href="/contact">
-              <a className="header__menu_item">お問い合わせ</a>
+              <a className="header__menu-item">お問い合わせ</a>
             </Link>
-            <button className="header__menu_icon">
+            <button className="header__menu-icon">
               <Image
                 src="/images/menu-icon.png"
                 alt="メニューバーのアイコン（ハンバーガー）"
@@ -86,12 +86,12 @@ export default function Company() {
               />
             </button>
             <ul
-              className={`${"header__menu_mobile"} ${
+              className={`${"header__menu-mobile"} ${
                 open ? "open" : "outside"
               }`}
             >
-              <div className="header__cross_icon__position">
-                <button className="header__cross_icon">
+              <div className="header__cross-icon--position">
+                <button className="header__cross-icon">
                   <Image
                     src="/images/cross-icon.png"
                     alt="メニューバーのアイコン（クロス）"
@@ -101,17 +101,17 @@ export default function Company() {
                   />
                 </button>
               </div>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/">
                   <a>Home</a>
                 </Link>
               </li>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/company">
                   <a>会社概要</a>
                 </Link>
               </li>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/contact">
                   <a>お問い合わせ</a>
                 </Link>
@@ -125,28 +125,28 @@ export default function Company() {
         ></div>
       </header>
       <main className="main">
-        <section className="main__section_img">
+        <section className="main__section-img">
           <h1 className="main__title">会社概要</h1>
         </section>
-        <section className="main__section_about">
+        <section className="main__section-about">
           <dl className="main__dl">
-            <dt className="main__dt_company">会社名</dt>
+            <dt className="main__dt-company">会社名</dt>
             <dd className="main__dd">株式会社West Japan System</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt_company">設立</dt>
+            <dt className="main__dt-company">設立</dt>
             <dd className="main__dd">2003年1月</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt_company">創業</dt>
+            <dt className="main__dt-company">創業</dt>
             <dd className="main__dd">2020年1月6日</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt_company">資本金</dt>
+            <dt className="main__dt-company">資本金</dt>
             <dd className="main__dd">5,000,000円</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt_company">事業内容</dt>
+            <dt className="main__dt-company">事業内容</dt>
             <dd className="main__dd">
               パソコンのトラブルサポート
               <br />
@@ -158,11 +158,11 @@ export default function Company() {
             </dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt_company">取締役</dt>
+            <dt className="main__dt-company">取締役</dt>
             <dd className="main__dd">代表取締役　川崎靖彦</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt_company">所在地</dt>
+            <dt className="main__dt-company">所在地</dt>
             <dd className="main__dd">
               〒831-0026
               <br />

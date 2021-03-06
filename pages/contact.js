@@ -28,7 +28,7 @@ export default function Contact() {
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="apple-mobile-web-app-title" content="WestJapanSystem" />
+        <meta name="apple-mobile-web-app-title" content="West Japan System" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           property="og:title"
@@ -62,24 +62,24 @@ export default function Contact() {
       <header className="header">
         <nav className="header__menu">
           <Link href="/">
-            <a className="header__menu_logo__position">
+            <a className="header__menu-logo--position">
               <Image
                 src="/images/company-logo.jpg"
                 alt="West Japan Systemロゴ"
-                width={180}
-                height={30}
-                className="header__menu_logo"
+                width={192}
+                height={32}
+                className="header__menu-logo"
               />
             </a>
           </Link>
           <div className="header__navigation">
             <Link href="/company">
-              <a className="header__menu_item">会社概要</a>
+              <a className="header__menu-item">会社概要</a>
             </Link>
             <Link href="/contact">
-              <a className="header__menu_item">お問い合わせ</a>
+              <a className="header__menu-item">お問い合わせ</a>
             </Link>
-            <button className="header__menu_icon">
+            <button className="header__menu-icon">
               <Image
                 src="/images/menu-icon.png"
                 alt="メニューバーのアイコン（ハンバーガー）"
@@ -89,12 +89,12 @@ export default function Contact() {
               />
             </button>
             <ul
-              className={`${"header__menu_mobile"} ${
+              className={`${"header__menu-mobile"} ${
                 open ? "open" : "outside"
               }`}
             >
-              <div className="header__cross_icon__position">
-                <button className="header__cross_icon">
+              <div className="header__cross-icon--position">
+                <button className="header__cross-icon">
                   <Image
                     src="/images/cross-icon.png"
                     alt="メニューバーのアイコン（クロス）"
@@ -104,17 +104,17 @@ export default function Contact() {
                   />
                 </button>
               </div>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/">
                   <a>Home</a>
                 </Link>
               </li>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/company">
                   <a>会社概要</a>
                 </Link>
               </li>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/contact">
                   <a>お問い合わせ</a>
                 </Link>
@@ -128,20 +128,20 @@ export default function Contact() {
         ></div>
       </header>
       <main className="main">
-        <section className="main__section_img">
+        <section className="main__section-img">
           <h1 className="main__title">お問い合わせ</h1>
         </section>
-        <section className="main__section_about">
+        <section className="main__section-about">
           <dl className="main__dl">
-            <dt className="main__dt_contact">電話番号</dt>
+            <dt className="main__dt-contact">電話番号</dt>
             <dd className="main__dd">0944-86-4843</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt_contact">FAX</dt>
+            <dt className="main__dt-contact">FAX</dt>
             <dd className="main__dd">0944-86-4854</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt_contact">メールアドレス</dt>
+            <dt className="main__dt-contact">メールアドレス</dt>
             <dd className="main__dd">wjs@kumin.ne.jp</dd>
           </dl>
         </section>

@@ -24,7 +24,7 @@ export default function Home() {
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="apple-mobile-web-app-title" content="WestJapanSystem" />
+        <meta name="apple-mobile-web-app-title" content="West Japan System" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="keywords"
@@ -56,24 +56,24 @@ export default function Home() {
       <header className="header">
         <nav className="header__menu">
           <Link href="/">
-            <a className="header__menu_logo__position">
+            <a className="header__menu-logo--position">
               <Image
                 src="/images/company-logo.jpg"
                 alt="West Japan Systemロゴ"
-                width={180}
-                height={30}
-                className="header__menu_logo"
+                width={192}
+                height={32}
+                className="header__menu-logo"
               />
             </a>
           </Link>
           <div className="header__navigation">
             <Link href="/company">
-              <a className="header__menu_item">会社概要</a>
+              <a className="header__menu-item">会社概要</a>
             </Link>
             <Link href="/contact">
-              <a className="header__menu_item">お問い合わせ</a>
+              <a className="header__menu-item">お問い合わせ</a>
             </Link>
-            <button className="header__menu_icon">
+            <button className="header__menu-icon">
               <Image
                 src="/images/menu-icon.png"
                 alt="メニューバーアイコン（ハンバーガー）"
@@ -83,12 +83,12 @@ export default function Home() {
               />
             </button>
             <ul
-              className={`${"header__menu_mobile"} ${
+              className={`${"header__menu-mobile"} ${
                 open ? "open" : "outside"
               }`}
             >
-              <div className="header__cross_icon__position">
-                <button className="header__cross_icon">
+              <div className="header__cross-icon--position">
+                <button className="header__cross-icon">
                   <Image
                     src="/images/cross-icon.png"
                     alt="メニューバーアイコン（クロス）"
@@ -98,17 +98,17 @@ export default function Home() {
                   />
                 </button>
               </div>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/">
                   <a>Home</a>
                 </Link>
               </li>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/company">
                   <a>会社概要</a>
                 </Link>
               </li>
-              <li className="header__menu_mobile__item">
+              <li className="header__menu-mobile--item">
                 <Link href="/contact">
                   <a>お問い合わせ</a>
                 </Link>
@@ -122,15 +122,17 @@ export default function Home() {
         ></div>
       </header>
       <main className="main">
-        <section className="main__section_img">
+        <section className="main__section-img">
           <h1 className="main__title">株式会社West Japan System</h1>
         </section>
-        <article className="main__article_about">
-          <h2 className="main__title_secondary">West Japan Systemについて</h2>
+        <article className="main__article-about">
+          <h2 className="main__title-secondary">West Japan Systemについて</h2>
           <p className="main__paragraph">
             私たちはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。
             <br />
-            日々お客様のことを考え、想像し、お客様のニーズにお答えします。対応はどこよりも早く、丁寧で綺麗に。
+            日々お客様のことを考え、想像し、お客様のニーズにお答えします。
+            <br />
+            対応はどこよりも早く、丁寧で綺麗に。
           </p>
         </article>
       </main>
