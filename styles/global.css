@@ -94,7 +94,7 @@ button {
   transition: 0.15s;
 }
 
-.outside {
+.close {
   right: -500%;
   transition: 0.5s;
 }
