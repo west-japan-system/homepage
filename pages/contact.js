@@ -66,7 +66,7 @@ export default function Contact() {
               <Image
                 src="/images/company-logo.jpg"
                 alt="West Japan Systemロゴ"
-                width={192}
+                width={195}
                 height={32}
                 className="header__menu-logo"
               />

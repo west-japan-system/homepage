@@ -63,7 +63,7 @@ export default function Company() {
               <Image
                 src="/images/company-logo.jpg"
                 alt="West Japan Systemロゴ"
-                width={192}
+                width={195}
                 height={32}
                 className="header__menu-logo"
               />
@@ -146,13 +146,13 @@ export default function Company() {
           <dl className="main__dl">
             <dt className="main__dt-company">事業内容</dt>
             <dd className="main__dd">
-              パソコンのトラブルサポート
+              ・パソコンのトラブルサポート
               <br />
-              販売管理・会計・給与ソフトウェアのご指導
+              ・販売管理、会計、給与ソフトウェアのご指導
               <br />
-              オリジナルソフトウェアの作成
+              ・オリジナルソフトウェアの作成
               <br />
-              OA機器の販売・リース取扱
+              ・OA機器の販売・リース取扱
             </dd>
           </dl>
           <dl className="main__dl">
