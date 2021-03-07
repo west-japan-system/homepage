@@ -113,17 +113,21 @@ button {
 }
 
 .main__section-img {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+  /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
     url(/images/orange2.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background: #000;
   min-height: 20rem;
 }
 
 .main__title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10.5rem;
   text-align: center;
-  padding-top: 11rem;
   font-size: 1.4rem;
   color: #fff;
 }
@@ -201,8 +205,8 @@ button {
   }
 
   .main__title {
+    top: 16rem;
     font-size: 2.6rem;
-    padding-top: 16rem;
   }
 
   .main__article-about,
@@ -264,7 +268,7 @@ button {
   }
 
   .main__title {
-    padding-top: 19rem;
+    top: 20rem;
     font-size: 3.5rem;
   }
 
