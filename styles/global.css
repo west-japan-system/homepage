@@ -144,7 +144,7 @@ button {
 
 .main__article-about,
 .main__section-about {
-  margin: 9rem 1rem 10rem;
+  margin: 11rem 1rem;
 }
 
 .main__title-secondary {
@@ -221,7 +221,7 @@ button {
 
   .main__article-about,
   .main__section-about {
-    margin: 12rem 3rem 13rem;
+    margin: 15rem 3rem;
   }
 
   .main__title-secondary {
@@ -230,7 +230,7 @@ button {
 
   .main__paragraph {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .main__dt-company {
@@ -286,7 +286,7 @@ button {
   .main__article-about,
   .main__section-about {
     max-width: 1120px;
-    margin: 18rem auto 19rem;
+    margin: 20rem auto;
   }
 
   .main__title-secondary {
@@ -294,7 +294,7 @@ button {
   }
 
   .main__paragraph {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .main__dl {
