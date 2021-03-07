@@ -194,6 +194,10 @@ button {
     display: unset;
   }
 
+  .main__section-img {
+    min-height: 60vh;
+  }
+
   .main__title {
     font-size: 2.6rem;
     padding-top: 16rem;
