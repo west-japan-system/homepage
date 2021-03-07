@@ -152,7 +152,7 @@ export default function Company() {
               <br />
               ・オリジナルソフトウェアの作成
               <br />
-              ・OA機器の販売・リース取扱
+              ・OA機器の販売・リース取り扱い
             </dd>
           </dl>
           <dl className="main__dl">
