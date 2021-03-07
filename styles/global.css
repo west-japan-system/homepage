@@ -118,7 +118,7 @@ button {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 42vh;
+  min-height: 20rem;
 }
 
 .main__title {
@@ -195,7 +195,7 @@ button {
   }
 
   .main__section-img {
-    min-height: 60vh;
+    min-height: 35rem;
   }
 
   .main__title {
@@ -255,7 +255,7 @@ button {
   }
 
   .main__section-img {
-    min-height: 75vh;
+    min-height: 43rem;
   }
 
   .main__title {
