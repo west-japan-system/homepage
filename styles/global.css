@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #ff7f00;
+  color: #ff8d1c;
   transition: 0.1s;
 }
 
@@ -129,7 +129,7 @@ button {
   top: 11rem;
   text-align: center;
   font-size: 1.4rem;
-  color: #fff;
+  color: #ff8d1c;
   animation: fadeIn 0.9s ease 0s 1 normal;
 }
 
