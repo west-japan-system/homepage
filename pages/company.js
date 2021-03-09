@@ -132,11 +132,11 @@ export default function Company() {
             <dd className="main__dd">株式会社West Japan System</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt-company">設立</dt>
+            <dt className="main__dt-company">創業</dt>
             <dd className="main__dd">2003年1月</dd>
           </dl>
           <dl className="main__dl">
-            <dt className="main__dt-company">創業</dt>
+            <dt className="main__dt-company">設立</dt>
             <dd className="main__dd">2020年1月6日</dd>
           </dl>
           <dl className="main__dl">
