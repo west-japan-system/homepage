@@ -16,7 +16,7 @@ export default function Home() {
         <meta http-equiv="content-language" content="ja" />
         <meta
           name="description"
-          content="株式会社West Japan Systemのウェブサイトです。West Japan Systemはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
+          content="株式会社 West Japan Systemのウェブサイトです。West Japan Systemはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
         <meta name="theme-color" content="#000000" />
         <meta name="format-detection" content="telephone=no" />
@@ -30,18 +30,18 @@ export default function Home() {
           name="keywords"
           content="WestJapanSystem,westjapansystem,ウエストジャパンシステム"
         />
-        <meta property="og:title" content="株式会社West Japan System" />
+        <meta property="og:title" content="株式会社 West Japan System" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="株式会社West Japan Systemのウェブサイトです。West Japan Systemはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
+          content="株式会社 West Japan Systemのウェブサイトです。West Japan Systemはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
         />
         <meta property="og:url" content="https://west-japan-system.com" />
         <meta
           property="og:image"
           content="https://west-japan-system.com/images/company_ogp-logo.png"
         />
-        <meta property="og:site_name" content="株式会社West Japan System" />
+        <meta property="og:site_name" content="株式会社 West Japan System" />
         <meta property="og:locale" content="ja_JP" />
         <noscript data-n-css="true"></noscript>
         <link
@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link rel="canonical" href="https://west-japan-system.com" />
         <link rel="icon" href="/favicon.ico" />
-        <title>株式会社West Japan System</title>
+        <title>株式会社 West Japan System</title>
       </Head>
 
       <header className="header">
@@ -121,7 +121,7 @@ export default function Home() {
       </header>
       <main className="main">
         <section className="main__section-img">
-          <h1 className="main__title">株式会社West Japan System</h1>
+          <h1 className="main__title">株式会社 West Japan System</h1>
         </section>
         <article className="main__article-about">
           <h2 className="main__title-secondary">West Japan Systemについて</h2>
@@ -135,7 +135,7 @@ export default function Home() {
         </article>
       </main>
       <footer className="footer">
-        <small>©️株式会社West Japan System</small>
+        <small>©️株式会社 West Japan System</small>
       </footer>
     </>
   );
