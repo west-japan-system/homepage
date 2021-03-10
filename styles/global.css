@@ -152,6 +152,7 @@ button {
   text-align: center;
   font-size: 1.3rem;
   margin-bottom: 4rem;
+  color: #ffcb72;
 }
 
 .main__paragraph {
@@ -206,7 +207,7 @@ button {
 
   .header__menu-item {
     margin-left: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     display: unset;
   }
 
@@ -230,7 +231,7 @@ button {
 
   .main__paragraph {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .main__dt-company {
@@ -268,7 +269,7 @@ button {
   }
 
   .header__menu-item {
-    margin-left: 3.5rem;
+    margin-left: 2.7rem;
   }
 
   .header__navigation {
@@ -295,7 +296,7 @@ button {
   }
 
   .main__paragraph {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .main__dl {
