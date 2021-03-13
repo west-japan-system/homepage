@@ -113,12 +113,7 @@ button {
 }
 
 .main__section-img {
-  /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
-    url(/images/orange2.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-  background: #000;
+  background: #ffa500;
   min-height: 20rem;
 }
 
