@@ -123,7 +123,7 @@ button {
   right: 0;
   top: 11rem;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #fff;
   animation: fadeIn 0.9s ease 0s 1 normal;
 }
@@ -180,7 +180,6 @@ button {
   text-align: justify;
 }
 
-/* 莨夂､ｾ讎りｦ/莠区･ｭ蜀�ｮｹ縺ｮ鬆�岼縺ｮ陦碁俣繧貞ｰ代＠髢九￠繧 */
 .main__section-about .main__dl:nth-child(5) .main__dd {
   line-height: 2;
 }
@@ -206,7 +205,7 @@ button {
   }
 
   .header__menu-item {
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     font-size: 1.3rem;
     display: unset;
   }
@@ -217,7 +216,7 @@ button {
 
   .main__title {
     top: 16.5rem;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
   }
 
   .main__article-about,
@@ -269,7 +268,7 @@ button {
   }
 
   .header__menu-item {
-    margin-left: 2.7rem;
+    margin-left: 1.7rem;
   }
 
   .header__navigation {
@@ -282,7 +281,7 @@ button {
 
   .main__title {
     top: 20.5rem;
-    font-size: 3.5rem;
+    font-size: 3.6rem;
   }
 
   .main__article-about,
