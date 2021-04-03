@@ -124,7 +124,7 @@ button {
   top: 16rem;
   text-align: center;
   font-size: 1.5rem;
-  animation: fadeIn 0.7s ease 0s 1 normal;
+  animation: fadeIn 0.5s ease 0s 1 normal;
 }
 
 @keyframes fadeIn {
