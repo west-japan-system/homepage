@@ -7,7 +7,12 @@ type Props = {
   ogUrl: string;
 };
 
-export default function Meta({ title, description, ogType, ogUrl }: Props) {
+export const Meta: React.FC<Props> = ({
+  title,
+  description,
+  ogType,
+  ogUrl,
+}) => {
   return (
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,4 +51,4 @@ export default function Meta({ title, description, ogType, ogUrl }: Props) {
       <title>{title}</title>
     </Head>
   );
-}
+};

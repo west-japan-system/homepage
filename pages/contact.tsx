@@ -1,18 +1,15 @@
-import Layout from "../components/Layout";
-import Meta from "../components/Meta";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Meta } from "../components/Meta";
 
 export default function Contact() {
   return (
-    <Layout>
+    <div>
       <Meta
         title="お問い合わせ | 株式会社 West Japan System"
         description="株式会社 West Japan Systemの「お問い合わせ」です。"
         ogType="article"
         ogUrl="https://west-japan-system.com/contact"
       />
-      <Header />
+
       <main className="main">
         <section className="main__section-img">
           <h1 className="main__title">お問い合わせ</h1>
@@ -32,7 +29,6 @@ export default function Contact() {
           </dl>
         </section>
       </main>
-      <Footer />
-    </Layout>
+    </div>
   );
 }

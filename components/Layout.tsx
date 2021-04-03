@@ -1,3 +1,12 @@
-export default function Layout({ children }: any) {
-  return <div>{children}</div>;
-}
+import { Header } from "./Header";
+import { Footer } from "./Footer";
+
+export const Layout: React.FC = ({ children }: any) => {
+  return (
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
+};

@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 
-export default function Header() {
+export const Header: React.FC = () => {
   const [open, setOpen] = useState(false);
   const menuFunction = () => {
     setOpen(!open);
@@ -73,4 +73,4 @@ export default function Header() {
       ></div>
     </header>
   );
-}
+};

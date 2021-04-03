@@ -1,18 +1,15 @@
-import Layout from "../components/Layout";
-import Meta from "../components/Meta";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import { Meta } from "../components/Meta";
 
 export default function Company() {
   return (
-    <Layout>
+    <div>
       <Meta
         title="会社概要 | 株式会社 West Japan System"
         description="株式会社 West Japan Systemの「会社概要」です。"
         ogType="article"
         ogUrl="https://west-japan-system.com/company"
       />
-      <Header />
+
       <main className="main">
         <section className="main__section-img">
           <h1 className="main__title">会社概要</h1>
@@ -60,7 +57,6 @@ export default function Company() {
           </dl>
         </section>
       </main>
-      <Footer />
-    </Layout>
+    </div>
   );
 }
