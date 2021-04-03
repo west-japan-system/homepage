@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className="main">
         <section className="main__section-img">
-          <h1 className="main__title">株式会社 West Japan System</h1>
+          <h1 className="main__title">West Japan System</h1>
         </section>
         <article className="main__article-about">
           <h2 className="main__title-secondary">West Japan Systemについて</h2>
