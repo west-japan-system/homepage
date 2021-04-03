@@ -113,18 +113,17 @@ button {
 }
 
 .main__section-img {
-  background: #ffa500;
-  min-height: 20rem;
+  min-height: 25rem;
 }
 
 .main__title {
+  color: #ff8d1c;
   position: absolute;
   left: 0;
   right: 0;
-  top: 11rem;
+  top: 16rem;
   text-align: center;
   font-size: 1.5rem;
-  color: #fff;
   animation: fadeIn 0.9s ease 0s 1 normal;
 }
 
@@ -185,8 +184,8 @@ button {
 }
 
 .footer {
+  color: #ffa500;
   text-align: center;
-  background: #ffa500;
   font-size: 0.8rem;
   padding: 1.1rem 0;
 }
@@ -215,8 +214,8 @@ button {
   }
 
   .main__title {
-    top: 16.5rem;
-    font-size: 2.8rem;
+    top: 22rem;
+    font-size: 3rem;
   }
 
   .main__article-about,
@@ -280,8 +279,8 @@ button {
   }
 
   .main__title {
-    top: 20.5rem;
-    font-size: 3.6rem;
+    top: 25rem;
+    font-size: 4.5rem;
   }
 
   .main__article-about,
