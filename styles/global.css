@@ -124,7 +124,7 @@ button {
   top: 16rem;
   text-align: center;
   font-size: 1.5rem;
-  animation: fadeIn 0.9s ease 0s 1 normal;
+  animation: fadeIn 0.7s ease 0s 1 normal;
 }
 
 @keyframes fadeIn {
@@ -215,7 +215,7 @@ button {
 
   .main__title {
     top: 22rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .main__article-about,
