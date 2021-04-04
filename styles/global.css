@@ -40,7 +40,7 @@ button {
   position: fixed;
   z-index: 100;
   background: #fff;
-  opacity: 0.97;
+  opacity: 0.95;
   border: 1px solid #efefef;
   padding: 1rem;
 }
@@ -121,13 +121,12 @@ button {
 }
 
 .main__title {
-  color: #ff8d1c;
   position: absolute;
   left: 0;
   right: 0;
   top: 16rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   animation: fadeIn 0.4s ease 0s 1 normal;
 }
 
@@ -219,6 +218,44 @@ button {
   .main__title {
     top: 22rem;
     font-size: 3.5rem;
+    padding: 2.2rem;
+  }
+
+  .main__title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 3px solid #333333;
+    animation: border-top 0.4s linear forwards;
+  }
+
+  .main__title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    border-bottom: 3px solid #333333;
+    transform: translateX(-100%);
+    animation: border-bottom 0.4s linear forwards;
+  }
+
+  @keyframes border-top {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes border-bottom {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
   }
 
   .main__article-about,
