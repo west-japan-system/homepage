@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <Meta
         title="株式会社 West Japan System"
-        description="株式会社 West Japan Systemのホームページです。West Japan Systemはパソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。「お客様の業務を止めない」これが私たちの掲げる信念です。"
+        description="株式会社 West Japan Systemのホームページです。West Japan Systemは福岡県大川市を中心に、パソコンのトラブルサポート、OA機器の販売、オリジナルソフトウェア作成などを手がけます。"
         ogType="website"
         ogUrl="https://west-japan-system.com"
       />
