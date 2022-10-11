@@ -123,6 +123,7 @@ button {
 
 .main__top-title {
   font-size: 2.4rem;
+  overflow: hidden;
 }
 
 @keyframes updown-anim{
@@ -137,7 +138,7 @@ button {
   }
 }
 
-.updown span {
+.main__top-title span {
   transform: translateY(110%); /*デフォルトで下に隠す*/
   animation: 3.5s updown-anim linear infinite; /* アニメーション */
 }
