@@ -125,10 +125,21 @@ button {
   font-size: 2.4rem;
 }
 
-.main__top-title span {
-  display: block;
-  transform: translate(0, 105%);
-  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+@keyframes updown-anim{
+  0%{
+    transform: translateY(110%); /*表示範囲外から*/
+  }
+  10%{
+    transform: translateY(0); /*通常の位置へ*/
+  }
+  50%{
+    transform: translateY(0); /*文字が上に揃うまで待機*/
+  }
+}
+
+.updown span {
+  transform: translateY(110%); /*デフォルトで下に隠す*/
+  animation: 3.5s updown-anim linear infinite; /* アニメーション */
 }
 
 .main__top-title span:nth-child(2) {
@@ -187,7 +198,7 @@ button {
   top: 15rem;
   text-align: center;
   font-size: 2.2rem;
-  animation: fadeIn 0.4s ease 0s 1 normal;
+  /* animation: fadeIn 0.4s ease 0s 1 normal; */
   color: white;
 }
 
