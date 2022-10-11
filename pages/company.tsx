@@ -36,7 +36,7 @@ export default function Company() {
             <dd className="main__dd">
               ・パソコンのトラブルサポート
               <br />
-              ・販売管理、会計、給与ソフトウェアのご指導
+              ・販売管理、会計、給与ソフトウェアの指導
               <br />
               ・オリジナルソフトウェアの作成
               <br />
