@@ -12,7 +12,25 @@ export default function Home() {
 
       <main className="main">
         <section className="main__section-img">
-          <h1 className="main__top-title main__title">West Japan System</h1>
+          <h1 className="main__top-title main__title">
+            <span>W</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>&nbsp;</span>
+            <span>J</span>
+            <span>a</span>
+            <span>p</span>
+            <span>a</span>
+            <span>n</span>
+            <span>&nbsp;</span>
+            <span>S</span>
+            <span>y</span>
+            <span>s</span>
+            <span>t</span>
+            <span>e</span>
+            <span>m</span>
+          </h1>
         </section>
         <article className="main__article-about">
           <h2 className="main__title-secondary">West Japan Systemについて</h2>
