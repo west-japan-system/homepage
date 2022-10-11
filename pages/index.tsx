@@ -13,7 +13,7 @@ export default function Home() {
       <main className="main">
         <section className="main__section-img">
           <h1 className="main__top-title main__title">
-            <span>W</span>
+            {/* <span>W</span>
             <span>e</span>
             <span>s</span>
             <span>t</span>
@@ -29,7 +29,8 @@ export default function Home() {
             <span>s</span>
             <span>t</span>
             <span>e</span>
-            <span>m</span>
+            <span>m</span> */}
+            West Japan System
           </h1>
         </section>
         <article className="main__article-about">
