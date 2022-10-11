@@ -302,9 +302,12 @@ button {
   .main__section-img {
     min-height: 43rem;
   }
+  .main__top-title {
+    font-size: 6rem !important;
+  }
 
   .main__title {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .main__article-about,
