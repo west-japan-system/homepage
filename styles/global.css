@@ -117,17 +117,19 @@ button {
 }
 
 .main__section-img {
-  min-height: 25rem;
+  min-height: 28rem;
+  background: linear-gradient(45deg, orangered, orange);
 }
 
 .main__title {
   position: absolute;
   left: 0;
   right: 0;
-  top: 16rem;
+  top: 15rem;
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   animation: fadeIn 0.4s ease 0s 1 normal;
+  color: white;
 }
 
 @keyframes fadeIn {
@@ -216,28 +218,9 @@ button {
   }
 
   .main__title {
-    top: 22rem;
+    top: 18rem;
     font-size: 3.5rem;
     padding: 2.2rem;
-  }
-
-  .main__title::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-top: 3px solid #333333;
-    animation: border-top 0.4s linear forwards;
-  }
-
-  .main__title::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    border-bottom: 3px solid #333333;
-    transform: translateX(-100%);
-    animation: border-bottom 0.4s linear forwards;
   }
 
   @keyframes border-top {
@@ -268,7 +251,6 @@ button {
   }
 
   .main__paragraph {
-    text-align: center;
     font-size: 1.2rem;
   }
 
@@ -320,7 +302,7 @@ button {
 
   .main__title {
     top: 25rem;
-    font-size: 4.5rem;
+    font-size: 6rem;
   }
 
   .main__article-about,
