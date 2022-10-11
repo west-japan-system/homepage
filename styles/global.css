@@ -128,18 +128,14 @@ button {
 
 @keyframes updown-anim{
   0%{
-    transform: translateY(110%); /*表示範囲外から*/
+    transform: translateY(50%); /*表示範囲外から*/
   }
-  10%{
-    transform: translateY(0); /*通常の位置へ*/
-  }
-  50%{
+  100%{
     transform: translateY(0); /*文字が上に揃うまで待機*/
   }
 }
 
 .main__top-title span {
-  transform: translateY(110%); /*デフォルトで下に隠す*/
   animation: 3.5s updown-anim linear infinite; /* アニメーション */
 }
 
