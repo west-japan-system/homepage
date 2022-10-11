@@ -226,27 +226,9 @@ button {
     font-size: 3.5rem;
   }
 
-  @keyframes border-top {
-    0% {
-      width: 0%;
-    }
-    100% {
-      width: 100%;
-    }
-  }
-
-  @keyframes border-bottom {
-    0% {
-      width: 0%;
-    }
-    100% {
-      width: 100%;
-    }
-  }
-
   .main__article-about,
   .main__section-about {
-    margin: 15rem 3rem;
+    margin: 12rem 3rem;
   }
 
   .main__title-secondary {
@@ -313,7 +295,7 @@ button {
   .main__article-about,
   .main__section-about {
     max-width: 1120px;
-    margin: 20rem auto;
+    margin: 15rem auto;
   }
 
   .main__title-secondary {
