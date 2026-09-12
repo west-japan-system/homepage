@@ -10,23 +10,21 @@ export const Header = () => {
   return (
     <header className="header">
       <nav className="header__menu">
-        <Link href="/">
-          <a className="header__menu-logo--position">
-            <Image
-              src="/images/company-logo.jpg"
-              alt="West Japan Systemロゴ"
-              width={195}
-              height={32}
-              className="header__menu-logo"
-            />
-          </a>
+        <Link href="/" className="header__menu-logo--position">
+          <Image
+            src="/images/company-logo.jpg"
+            alt="West Japan Systemロゴ"
+            width={195}
+            height={32}
+            className="header__menu-logo"
+          />
         </Link>
         <div className="header__navigation">
-          <Link href="/company">
-            <a className="header__menu-item">会社概要</a>
+          <Link href="/company" className="header__menu-item">
+            会社概要
           </Link>
-          <Link href="/contact">
-            <a className="header__menu-item">お問い合わせ</a>
+          <Link href="/contact" className="header__menu-item">
+            お問い合わせ
           </Link>
           <button className="header__menu-icon">
             <Image
@@ -50,19 +48,13 @@ export const Header = () => {
               </button>
             </div>
             <li className="header__menu-mobile--item">
-              <Link href="/">
-                <a>Home</a>
-              </Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="header__menu-mobile--item">
-              <Link href="/company">
-                <a>会社概要</a>
-              </Link>
+              <Link href="/company">会社概要</Link>
             </li>
             <li className="header__menu-mobile--item">
-              <Link href="/contact">
-                <a>お問い合わせ</a>
-              </Link>
+              <Link href="/contact">お問い合わせ</Link>
             </li>
           </ul>
         </div>
