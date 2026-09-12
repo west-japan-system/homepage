@@ -45,14 +45,14 @@ export default function Company() {
           </dl>
           <dl className="main__dl">
             <dt className="main__dt-company">取締役</dt>
-            <dd className="main__dd">代表取締役　川崎靖彦</dd>
+            <dd className="main__dd">代表取締役　川﨑靖彦</dd>
           </dl>
           <dl className="main__dl">
             <dt className="main__dt-company">所在地</dt>
             <dd className="main__dd">
-              〒831-0026
+              〒831-0016
               <br />
-              福岡県大川市三丸795-4
+              福岡県大川市酒見926-3
             </dd>
           </dl>
         </section>
